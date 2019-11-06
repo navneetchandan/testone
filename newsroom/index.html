@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<main id="wrapper">
+		<nav id="navbar">
+			<div id="brand-name"><h1>Uber NewsRoom</h1></div>
+		</nav>
+		<div id="container">
+			<div id="cont">
+				<div id="cont1"><h1>Uber news in india</h1></div>
+				<div id="cont11"><h2>The latest update are arriving now</h2></div>
+			</div>
+		</div>
+		 <div id="cont2">
+			<div id="cover">
+				<p id="boss"  onclick="goback()"> &#8810;</p>
+                <p id="boss1" onclick="gofwd()"> &#8811;</p>
+                <div class="parent" id="prnt">
+			    <div id="box">
+
+			    	<div id="img" class="image">
+			    		<div id="img0"><img src="images.jpg"></div>
+			    		<div id="img00">
+			    			<div id="info1">
+			    				<p>Global Nov/18</p>
+			    			</div>
+			    			<div id="info2">
+			    				<h3>Uber launching the high standerd car for metro city</h3>
+			    			</div>
+			    			<div id="info3">
+			    				<p>Uber announce car lane alert a ,road </p>
+			    			</div>
+			    			<div id="info4"></div>
+			    		</div>
+			    	</div>
+			    	 <div id="img1" class="image">
+			    		<div id="img10"><img src="images2.jpg"></div>
+			    		<div id="img100">
+			    			<div id="info5">
+			    				<p>Global Nov/18</p>
+			    			</div>
+			    			<div id="info6">
+			    				<h3>Uber launching the high standerd car for metro city</h3>
+			    			</div>
+			    			<div id="info7"></div>
+			    			<div id="info8"></div>
+			    		</div>
+			    	</div>
+			    	<div id="img2" class="image">
+			    		<div id="img20"><img src="images3.jpg"></div>
+			    		<div id="img200">
+			    			<div id="info9">
+			    				<p>Global Nov/18</p>
+			    			</div>
+			    			<div id="info10">
+			    				<h3>Uber launching the high standerd car for metro city</h3>
+			    			</div>
+			    			<div id="info11"></div>
+			    			<div id="info12"></div>
+			    		</div>
+			    		</div> 
+			    	</div>
+			    </div>
+			    </div>
+			</div> 
+
+			<div style="text-align:center"> 
+                 <span class="dot"></span>  
+                 <span class="dot"></span>  
+                 <span class="dot"></span>  
+            </div> 
+			<div id="container2">
+				<div id="user">
+					<h1>User Experience</h1>
+				</div>
+				<div id="side">
+					<div id="side1">
+						<div id="side1_1">
+							<img src="images.jpg">
+						</div>
+						<div id="side2_1">
+							<div id="line">
+								<h3>Fliying back to home to the Philipines this winter? Start planing your trip with Emirites</h3>
+									<hr id="class">
+							</div>
+							<div id="line2">
+								<p>For @therealjamee, Lead Client Claims Manager at @HRBlock, good customer service means 3 things: "Exceeding the client's expectations, going above and beyond the call of duty, anticipating the client's needs, and following up and following through." </p>
+							</div>
+
+						</div>
+						<div id="side3_1">
+							<div id="some"><p>CUSTOMER EXPERIENCE</p></div>
+							<div id="some1"><button type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button></div>
+						</div>
+					</div>
+					<div id="side2">
+						<div id="side4_1">
+							<img src="images2.jpg">
+						</div>
+						<div id="side5_1">
+							<div id="line3">
+								
+							</div>
+							<div id="line4">
+								
+							</div>
+						</div>
+						<div id="side6_1">
+							<div id="some2"><p>CUSTOMER EXPERIENCE</p></div>
+							    <div id="some3"><button type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button></div>
+						</div>
+					</div>
+					<div id="side3">
+						<div id="side7_1">
+							<img src="images3.jpg">
+						</div>
+						<div id="side8_1">
+							<div id="line5">
+								
+							</div>
+							<div id="line6">
+								
+							</div>
+						</div>
+						<div id="side9_1">
+							<div id="some4"><p>CUSTOMER EXPERIENCE</p></div>
+							    <div id="some5"><button type="button"><i class="fa fa-share-alt" aria-hidden="true"></i></button></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+	</main>
+	<script>
+		  
+
+		   var slideIndex = 0; 
+                  showSlides();
+
+                  function showSlides() 
+                  { 
+                      var i; 
+                      var slides = document.getElementsByClassName("image");  
+                      var dots = document.getElementsByClassName("dot");  
+                    
+                      for (i = 0; i < slides.length; i++) { 
+                          slides[i].style.display = "none";   
+                      } 
+                      slideIndex++;
+                      console.log(slideIndex); 
+
+                      if (slideIndex > slides.length)  
+                      { 
+                          slideIndex = 1; 
+                      } 
+                      for (i = 0; i < dots.length; i++) { 
+                          dots[i].className = dots[i].className. 
+                                              replace(" active", ""); 
+                           console.log(dots[i]);
+                      } 
+                     
+                      slides[slideIndex - 1].style.display = "block"; 
+                      dots[slideIndex - 1].className += " active"; 
+                      setTimeout(showSlides, 3000);  
+                  } 
+                  
+	</script>
+
+</body>
+</html>                  

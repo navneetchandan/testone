@@ -1,0 +1,989 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	width: 100%;
+	height: auto;
+}
+#navbar{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 6;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#brand-name{
+	color: white;
+	height: 60px;
+	padding-left: 20px;
+}
+#container{
+	width: 100%;
+	height: 300px;
+	position: relative; 
+}
+#cont{
+	width: 100%;
+	height: 300px;
+	background-color: #000;
+	margin-top: 60px;
+	color: white;
+}
+#cont1{
+	padding-top: 50px;
+	padding-left: 90px;
+	font-size: 22px;
+}
+#cont11{
+	margin-top: -20px;
+	padding-left: 90px;
+	font-size: 22px;
+}
+#cont2{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 0px;
+}
+#cover{
+	width: 1000px;
+	height: 330px;
+	margin-left: 14%;
+	margin-right: 14%;
+	background-color: red;
+	position: absolute;
+	top: 280px;
+	overflow: hidden;
+}
+#box{
+	position: relative;
+	width: 3000px;
+	animation-name: slider;
+	animation-duration:12s;
+	animation-iteration-count: infinite;
+}
+#img{
+	width: 1000px;
+	height: 330px;
+	float: left;
+}
+#img0{
+	width: 700px;
+	height: 330px;
+	float: left;
+}
+#img0 img{
+	width: 700px;
+	height: 330px;
+	background-size: cover;
+}
+#img00{
+	width: 300px;
+	height: 330px;
+	float: left;
+	background-color:silver;
+}
+#info1{
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	line-height: 50px;
+	padding-left: 10px;
+}
+#info2{
+	width: 300px;
+	height: 60px;
+	line-height: 20px;
+	padding-top: 10px;
+	text-align: justify;
+
+
+}
+#info5{
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	line-height: 50px;
+	padding-left: 10px; 
+}
+#info6{
+	width: 300px;
+	height: 60px;
+	line-height: 20px;
+	padding-top: 10px;
+	text-align: justify;
+}
+#info9{
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	line-height: 50px;
+	padding-left: 10px; 
+}
+#info10{
+	width: 300px;
+	height: 60px;
+	line-height: 20px;
+	padding-top: 10px;
+	text-align: justify;
+}
+#boss{
+	position: absolute;
+	width: 20px;
+	left: 830px;
+	background-color: black;
+	color: white;
+	z-index: 2;
+
+}
+#boss1{
+	position: absolute;
+	width: 20px;
+	left: 870px;
+	background-color: black;
+	color: white;
+	z-index: 2;
+}
+#img1{
+	width: 1000px;
+	height: 330px;
+	float: left;
+}
+#img10{
+	width: 700px;
+	height: 330px;
+	float: left;
+}
+#img10 img{
+	width: 700px;
+	height: 330px;
+	background-size: cover;
+}
+#img100{
+	width: 300px;
+	height: 330px;
+	float: left;
+	background-color:silver;
+}
+#img2{
+	width: 1000px;
+	height: 330px;
+	float: left;
+}
+#img20{
+	width: 700px;
+	height: 330px;
+	float: left;
+}
+#img20 img{
+	width: 700px;
+	height: 330px;
+	background-size: cover;
+}
+#img200{
+	width: 300px;
+	height: 330px;
+	float: left;
+	background-color:silver;
+}
+/*@keyframes slider{
+	0%{
+		left: 0px;
+	}
+	24%{
+		left:0px;
+	}
+	32%{
+		left: -1000px;
+	}
+	56%{
+		left: -1000px;
+	}
+	64%{
+		left: -2000px;
+	}
+}*/
+#container2{
+	width: 100%;
+	height: 500px;
+	margin-top: -21px;
+}
+#user{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+#side{
+	width: 100%;
+	height: 430px;
+}
+#side1{
+	width: 30%;
+	height: 425px;
+	float: left;
+	margin-left: 3%;
+	border:2px solid silver;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#side1_1{
+	width: 100%;
+	height: 200px;
+}
+
+#side1_1 img{
+	width: 100%;
+	height: 180px;
+	background-size: cover;
+}
+#side2_1{
+	width: 100%;
+	height: 170px;
+	margin-top: -19px;
+}
+#line{
+	width: 100%;
+	height: 60px;
+
+}
+#line h3{
+	
+
+}
+#line2{
+	text-align: justify;
+	padding: 5px;
+}
+#line4{
+	text-align: justify;
+	padding: 5px;
+
+}
+#line6{
+	text-align: justify;
+	padding: 5px;
+	margin-top: -10px;
+}
+#side3_1{
+	width: 100%;
+	height: 55px;
+
+}
+#some{
+	width: 75%;
+	height: 55px;
+	float: left;
+	text-align: center;
+}
+#some1{
+	width: 25%;
+	height: 55px;
+	float: left;
+	margin-top: 15px;
+
+}
+#some2{
+	width: 75%;
+	height: 55px;
+	float: left;
+	text-align: center;
+}
+#some3{
+	width: 25%;
+	height: 55px;
+	float: left;
+	margin-top: 15px;
+}
+#side2{
+	width: 30%;
+	height: 425px;
+	float: left;
+	margin-left: 2%;
+	border:2px solid silver;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#side4_1{
+	width: 100%;
+	height: 200px;
+}
+
+#side4_1 img{
+	width: 100%;
+	height: 180px;
+	background-size: cover;
+}
+#side3{
+	width: 30%;
+	height: 425px;
+	float: left;
+	margin-left: 2%;
+	border:2px solid silver;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#side7_1{
+	width: 100%;
+	height: 200px;
+}
+
+#side7_1 img{
+	width: 100%;
+	height: 180px;
+	background-size: cover;
+}
+#side5_1{
+	width: 100%;
+	height: 170px;
+	margin-top: -19px;
+}
+#line3{
+	width: 100%;
+	height: 60px;
+}
+#side8_1{
+	width: 100%;
+	height: 170px;
+	margin-top: -19px;
+}
+.active { 
+  background-color: red; 
+}
+.image{
+	display: none;
+} 
+.dot  
+{ 
+  height: 15px; 
+  width: 15px; 
+  margin: 0 2px; 
+  background-color: transparent; 
+  border-color: #ddd; 
+  border-width: 5px; 
+  border-style: solid; 
+  border-radius: 50%; 
+  display: inline-block; 
+  transition: border-color 0.6s ease; 
+}
+
+
+.active { 
+  border-color: #666;
+}
+
+@media (max-width: 550px){
+	#wrapper{
+		width: 100%;
+	}
+	#container2{
+		width: 100%;
+
+	}
+	#user{
+		width: 100%;
+	}
+	#side{
+		width: 100%;
+	}
+	#side1{
+		width: 96%;
+		float: none;
+		margin-right: 2%;
+		margin-left: 2%;
+		margin-bottom: 5px;
+	}
+	#side1_1{
+	width: 100%;
+    }
+
+    #side1_1 img{
+	   width: 100%;
+    }
+    #side2{
+    	width: 96%;
+		float: none;
+		margin-right: 2%;
+		margin-left: 2%;
+		margin-bottom: 5px;
+    }
+    #side3{
+    	width: 96%;
+		float: none;
+		margin-right: 2%;
+		margin-left: 2%;
+		margin-bottom: 0;
+    }
+}
+@media (max-width: 1037px){
+	#wrapper{
+		width: 100%;
+	}
+	#cover{
+	width: 800px;
+	height: 330px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#box{
+	position: relative;
+	width: 2400px;
+
+}
+#img{
+	width: 800px;
+}
+#img0{
+	width: 550px;
+}
+#img0 img{
+	width: 550px;
+}
+#img00{
+	width: 250px;
+}
+#info1{
+	width: 250px;
+}
+#info2{
+	width: 250px;
+}
+#info5{
+	width: 250px;
+}
+#info6{
+	width: 250px;
+}
+#info9{
+	width: 250px; 
+}
+#info10{
+	width: 250px;
+}
+#boss{
+	position: absolute;
+	width: 20px;
+	left: 630px;
+}
+#boss1{
+	position: absolute;
+	width: 20px;
+	left: 670px;
+}
+#img1{
+	width: 800px;
+}
+#img10{
+	width: 550px;
+}
+#img10 img{
+	width: 550px;
+}
+#img100{
+	width: 250px;
+}
+#img2{
+	width: 800px;
+}
+#img20{
+	width: 550px;
+}
+#img20 img{
+	width: 550px;
+}
+#img200{
+	width: 250px;
+}
+/*@keyframes slider{
+	0%{
+		left: 0px;
+	}
+	24%{
+		left:0px;
+	}
+	32%{
+		left: -800px;
+	}
+	56%{
+		left: -800px;
+	}
+	64%{
+		left: -1600px;
+	}
+}*/
+}
+@media (max-width: 450px){
+	#wrapper{
+		width: 100%;
+	}
+	#cont2{
+		height: 400px;
+	}
+	#navbar{
+		position: fixed;
+		height: 40px;
+	}
+	#cover{
+	width: 100%;
+	height: 490px;
+	margin: 0;
+	padding: 0;
+	top: 140px;
+}
+#container{
+	height: 200px;
+	width: 100%;
+	margin-top: -20px;
+}
+#cont{
+	height: 200px;
+}
+#cont2{
+	height: 400px;
+}
+#brand-name{
+	height: 40px;
+}
+  #brand-name h1{
+  	line-height:3px;
+  }
+  #box{
+	position: relative;
+	width: 300%;
+
+}
+#cont1{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 10px;
+}
+#cont11{
+	margin-top: -8px;
+	padding-left: 20px;
+	font-size: 10px;
+}
+#img{
+	width: 100%;
+}
+#img0{
+	width: 100%;
+	float: none;
+}
+#img0 img{
+	width: 100%;
+	background-size: cover;
+}
+#img00{
+	width: 100%;
+	float: none;
+	margin-top: -20px;
+}
+#info1{
+	width: 360px;
+}
+#info2{
+	width: 360px;
+	padding-left: 10px;
+	margin-top: -20px;
+}
+#info2 h3{
+	font-size:12px;
+}
+#info3{
+	padding-left: 13px;
+	margin-top: -35px;
+}
+#info3 p{
+	font-size: 13px;
+
+}
+#info5{
+	width: 360px;
+	margin-top: 10px;
+	line-height: 75px;
+}
+#info6{
+	width: 360px;
+	padding-left: 10px;
+	margin-top: -10px;
+}
+#info6 h3{
+	font-size:14px;
+}
+#info9{
+	width: 360px; 
+	line-height: 99px;
+}
+
+#info10{
+	width: 360px;
+}
+ 
+#boss{
+	position: absolute;
+	width: 20px;
+	left: 370px;
+	padding-left: 5px;
+	padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+#boss1{
+	position: absolute;
+	width: 20px;
+	left: 410px;
+	padding-left: 5px;
+	padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+#img1{
+	width: 100%;
+}
+#img10{
+	width: 100%;
+	float: none;
+}
+#img10 img{
+	width:100%;
+	background-size: cover;
+}
+#img100{
+	width: 100%;
+	float: none;
+	margin-top: -20px;
+}
+#img2{
+	width: 100%;
+}
+#img20{
+	width: 100%;
+	float: none;
+}
+#img20 img{
+	width: 100%;
+	background-size: cover;
+}
+#img200{
+	width: 100%;
+	float: none;
+	margin-top: -20px;
+}
+#info10{
+	padding-left: 10px;
+}
+#info10 h3{
+	font-size:14px;
+}
+#side1{
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 92%;
+
+}
+#side2{
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 92%;
+}
+#side3{
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 92%;
+
+}
+#side7_1{
+
+}
+#line{
+	width: 100%;
+	height: 60px;
+
+}
+#line h3{
+	font-size: 14px;
+
+}
+#line2{
+margin-top: -29px;
+font-size: 16px;
+}
+#some{
+ line-height: 30px;
+}
+#some1 button{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+#some2{
+	line-height: 30px;
+}
+#some3 button{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+#some3 button i{
+	color{
+		color: red;
+	}
+}
+/*@keyframes slider{
+	0%{
+		left: 0px;
+	}
+	24%{
+		left:0px;
+	}
+	32%{
+		left: -360px;
+	}
+	56%{
+		left: -360px;
+	}
+	64%{
+		left: -720px;
+	}
+}*/
+
+}
+@media(max-width: 768px){
+	#wrapper{
+		width: 100%;
+	}
+	#cont2{
+		height: 400px;
+	}
+	#navbar{
+		position: fixed;
+		height: 40px;
+	}
+	#cover{
+	width: 100%;
+	height: 490px;
+	margin: 0;
+	padding: 0;
+	top: 140px;
+}
+#container{
+	height: 200px;
+	width: 100%;
+	margin-top: -20px;
+}
+#cont{
+	height: 200px;
+}
+#cont2{
+	height: 400px;
+}
+#brand-name{
+	height: 40px;
+}
+  #brand-name h1{
+  	line-height:3px;
+  }
+  #box{
+	position: relative;
+	width: 300%;
+
+}
+#cont1{
+	padding-top: 1px;
+    padding-left: 100px;
+    font-size: 15px;
+}
+#cont11{
+	margin-top: -16px;
+    padding-left: 106px;
+    font-size: 17px;
+}
+#img{
+	width: 100%;
+}
+#img0{
+	width: 100%;
+	float: none;
+}
+#img0 img{
+	width:768px;
+	background-size: cover;
+}
+#img00{
+	width: 100%;
+	float: none;
+	margin-top: -20px;
+}
+#info1{
+	width: 100%;
+	font-size: 20px;
+    padding-left: 35px;
+    padding-top: 1px;
+}
+#info2{
+	width: 100%;
+	padding-left: 35px;
+    margin-top: -20px;
+    padding-top: 29px;}
+#info2 h3{
+	font-size:15px;
+}
+#info3{
+	padding-left: 35px;
+    margin-top: -35px;
+    padding-top: 3px;
+}
+#info3 p{
+	font-size: 15px;
+
+}
+#info5{
+	width: 100%;
+	padding-left: 35px;
+    margin-top: 10px;
+    line-height: 66px
+}
+#info5 p{
+	font-size: 19px;
+}
+#info6{
+	width: 100%;
+	padding-left: 35px;
+	margin-top: -20px;
+}
+#info6 h3{
+	font-size:16px;
+}
+#info9{
+	width: 100%; 
+	line-height: 99px;
+	padding-left: 35px;
+}
+#info9 p{
+	font-size: 18px;
+}
+
+#info10{
+	width: 100%;
+	padding-left: 35px;
+
+}
+#info10 h3{
+	font-size: 15px;
+}
+ 
+#boss{
+	position: absolute;
+	width: 20px;
+	left: 651px;
+	padding-left: 5px;
+	padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+#boss1{
+	position: absolute;
+	width: 20px;
+	left: 697px;
+	padding-left: 5px;
+	padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+#img1{
+	width: 100%;
+}
+#img10{
+	width: 100%;
+	float: none;
+}
+#img10 img{
+	width:768px;
+	background-size: cover;
+}
+#img100{
+	width: 100%;
+	float: none;
+	margin-top: -20px;
+}
+#img2{
+	width: 100%;
+}
+#img20{
+	width: 100%;
+	float: none;
+}
+#img20 img{
+	width:768px;
+	background-size: cover;
+}
+#img200{
+	width: 100%;
+	float: none;
+	margin-top: -20px;
+}
+#info10{
+	padding-left: 10px;
+}
+#info10 h3{
+	font-size:14px;
+}
+#side1{
+	margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    margin-bottom: 20px;
+
+}
+#side2{
+	margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    margin-bottom: 20px;
+}
+#side3{
+	margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+
+
+}
+#side7_1{
+
+}
+#line{
+	width: 100%;
+	height: 60px;
+
+}
+#line h3{
+	font-size: 14px;
+
+}
+#line2{
+margin-top: -29px;
+font-size: 16px;
+}
+#some{
+ line-height: 30px;
+}
+#some1 button{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+#some2{
+	line-height: 30px;
+}
+#some3 button{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+#some3 button i{
+	color{
+		color: red;
+	}
+}
+
+}
